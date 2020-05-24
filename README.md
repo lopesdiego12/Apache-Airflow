@@ -83,7 +83,7 @@ Message queue do airflow
 Fornece uma camada de abstração e automação para virtualização de sistema operacional
 
 ## Docker compose
-Roda múltiplo container e sobre múltiplo serviços/aplicações através de comandos no arquivo YAML(YML)
+Roda múltiplos containers e sobe múltiplos serviços/aplicações através de comandos no arquivo YAML(YML)
 
 
 ## Hands-on
