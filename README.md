@@ -110,16 +110,21 @@ Faça o download do arquivo yml antes de executar o comando abaixo
 ![image](https://raw.githubusercontent.com/lopesdiego12/Apache-Airflow/master/dockerps.png)
 
 Adicionando o código python para criação da dag
+
     docker cp Tuto.py 7ac:/usr/local/airflow/dags
 
 Adicionando o código python para ciação da dag
+
     docker cp DagCode.py 7ac:/usr/local/airflow/dags
 
 Adicionando o yml que o python acima chama
+    
     docker cp exemplo.yml 7ac:/usr/local/airflow/dags/config
 
 Adicionando o código python para ciação da dag
+  
     docker cp DagCode2.py 7ac:/usr/local/airflow/dags
     
 Adicionando o yml que o python acima chama
-    docker cp exemplo2.yml 7ac:/usr/local/airflow/dags/config
+    
+     docker cp exemplo2.yml 7ac:/usr/local/airflow/dags/config
