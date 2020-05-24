@@ -1,6 +1,6 @@
 # Agenda
 
-* [História](## História)
+* [História](##História)
 * [O que é](##)
 * Conceitos
 * Arquitetura
@@ -37,7 +37,8 @@
 ##Conceitos
 
 ##### Operators
-Airflow Operators servem para executar diferentes tipos de operações dentro do seu workflow
+
+Executam uma ação ou manda informação para outro sistema executar uma ação dentro do seu workflow
 
 ##### Dags
 DAG = Directed Acyclic Graph
@@ -46,29 +47,34 @@ DAG = Directed Acyclic Graph
 Dessa forma cada arquivo python armazena uma DAG, e ela é reconhecida pelo Airflow para sua execução na pasta dags que criamos anteriormente. Você pode mudar o caminho dessa pasta, alterando as configurações da ferramenta.
 
 ##### Tasks
-Tarefas dentro de uma dag
+Tarefas dentro de uma dag.
+
+##### Outros conceitos: XComs, Variables, Recap, Connections, Hooks
 
 
 ##### Arquitetura
 
-Airflow database
+> Webserver
+
+Inteface gráfica (GUI)
+
+>Scheduler
+
+The Airflow scheduler monitora todas as tasks e todas as Dags para assegurar que todas as execuções estão conforme agendadas.
+
+>Worker
+
+Airflow workers espera, processa e enfileira
+
+>Flower
+Flower é uma ferramenta baseada em web para monitorar e administrar os operadores Celery
+
+
+>Airflow database
+
 Guarda os metadados do airflow, histórico de execuções, dos jobs/tasks
 
-Webserver
-Inteface gráfica (GUI)
-Scheduler
-The Airflow scheduler monitors all tasks and all DAGs to ensure that everything is executed according to schedule. The Airflow scheduler, the heart of the application, "heartbeats" the DAGs folder every couple of seconds to inspect tasks for whether or not they can be triggered
 
-Worker
-Airflow workers listen to, and process, queues containing workflow tasks.
-Operadores
-Operators that performs an action, or tells another system to perform an action
-Transfer operators move data from a system to another
-Sensors are a certain type of operators that will keep running until a certain criteria is met
-
-
-
-##### Outros conceitos: XComs, Variables, Recap, Connections, Hooks
 
 ## Docker 
 fornece uma camada de abstração e automação para virtualização de sistema operacional
