@@ -1,18 +1,15 @@
 # Agenda
 
-* [História](##História)
-* [O que é](##)
-* Conceitos
-* Arquitetura
-* Docker*
-* Hands-on
-* Instalação 
-* Criação de dags
-* Visualização das tasks
+* [História](##Surgimento)
+* [O que é](#o-que-%C3%A9)
+* [Conceitos](#Conceitos)
+* [Arquitetura](#Arquitetura)
+* [Docker*](#Docker)
+* [Hands-on](#Hands-on)
 
 [O que é o Training Center](#o-que-%C3%A9)
 
-## História
+## Surgimento
   
 
 > Criado pelo time de desenvolvedores do AirBnB, com o intuito de definir fluxos de trabalho(workflow) que envolve consulta de dados de inúmeras fontes, tratamento e mineração de dados, de forma que possa ser feito de forma periódica ou não, ou seja, uma pipeline de dados. Ela se tornou open source em meados de 2015, sendo divulgado por um post no blog aonde os engenheiros e cientistas de dados da empresa compartilham suas experiências. Depois de algum tempo, ela foi cedida para o Apache em que se tornou um dos inúmeros projetos que ela mantém, hoje chamado de apache airflow.  
