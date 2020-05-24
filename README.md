@@ -7,8 +7,6 @@
 * [Docker*](#Docker)
 * [Hands-on](#Hands-on)
 
-[O que é o Training Center](#o-que-%C3%A9)
-
 ## Surgimento
   
 
