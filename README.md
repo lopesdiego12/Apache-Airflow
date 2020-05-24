@@ -93,6 +93,8 @@ Para baixar a imagem que iremos utilizar favor executar o comando abaixo
 
 
     docker pull puckel/docker-airflow 
+   
+![image](https://raw.githubusercontent.com/lopesdiego12/Apache-Airflow/master/dockerpull.png)
 
 
 Faça o download do arquivo yml antes de executar o comando abaixo
@@ -102,3 +104,7 @@ Faça o download do arquivo yml antes de executar o comando abaixo
     docker-compose -f docker-compose-CeleryExecutor.yml up -d
     
 ![image](https://raw.githubusercontent.com/lopesdiego12/Apache-Airflow/master/dockercompose.png)
+![image](https://raw.githubusercontent.com/lopesdiego12/Apache-Airflow/master/dockercomposedone.png)
+
+    docker ps
+![image](https://raw.githubusercontent.com/lopesdiego12/Apache-Airflow/master/dockerps.png)
