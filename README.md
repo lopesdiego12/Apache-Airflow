@@ -23,9 +23,10 @@
 ------
 
 ## O que é
-* O Apache Airflow é uma plataforma de gerenciamento de fluxo de trabalho open source
-* Forma simples e visual de controlar tarefas agendas
-* Tarefas agendadas para executar a qualquer momento ou com condições específicas(Celery)
+* O Apache Airflow é uma plataforma de gerenciamento de fluxo de trabalho open source.
+* Os pipelines do airflow são com códigos em Python, isso gera dinâmismo.
+* Forma simples e visual de controlar tarefas agendas.
+* Tarefas agendadas para executar a qualquer momento ou com condições específicas(Celery).
 * Monitoramento centralizado de todas as tarefas, tedo total autonamia e gerenciamento de quando e como executou/falhou.
 
 
