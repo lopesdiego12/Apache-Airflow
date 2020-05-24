@@ -1,11 +1,13 @@
 # Agenda
 
-* [História](##Surgimento)
+* [Surgimento](##História)
 * [O que é](#o-que-%C3%A9)
 * [Conceitos](#Conceitos)
 * [Arquitetura](#Arquitetura)
 * [Docker*](#Docker)
 * [Hands-on](#Hands-on)
+
+[O que é o Training Center](#o-que-%C3%A9)
 
 ## Surgimento
   
@@ -80,4 +82,15 @@ Message queue do airflow
 ## Docker 
 fornece uma camada de abstração e automação para virtualização de sistema operacional
 
-docker pull puckel/docker-airflow
+Para baixar a imagem que iremos utilizar favor executar o comando abaixo
+
+[Docker hub](https://hub.docker.com/r/puckel/docker-airflow/)
+
+
+    docker pull puckel/docker-airflow 
+
+
+[YML file] 
+(https://raw.githubusercontent.com/lopesdiego12/Apache-Airflow/master/docker-compose-CeleryExecutor.yml)
+
+    docker-compose -f docker-compose-CeleryExecutor.yml up -d
