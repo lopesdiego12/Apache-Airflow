@@ -19,7 +19,7 @@
 
 >[Documentação](https://airflow.apache.org/docs/stable/)
 
->[Github Airflow] (https://github.com/apache/airflow)
+>[Github Airflow](https://github.com/apache/airflow)
 
 >[Instalação](https://github.com/apache/airflow/blob/master/docs/installation.rst)
 
