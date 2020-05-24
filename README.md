@@ -10,6 +10,8 @@
 * Criação de dags
 * Visualização das tasks
 
+[O que é o Training Center](#o-que-%C3%A9)
+
 ## História
   
 
@@ -73,6 +75,10 @@ Flower é uma ferramenta baseada em web para monitorar e administrar os operador
 >Airflow database
 
 Guarda os metadados do airflow, histórico de execuções, dos jobs/tasks
+
+> Redis
+
+Message queue do airflow
 
 
 
