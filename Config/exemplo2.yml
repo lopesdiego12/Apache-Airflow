@@ -1,0 +1,30 @@
+dagname: Pipeline2
+schedule_interval: '0 3 * * *'
+description :
+etlflow: 
+  job1:   
+    task_Date: 
+      tasktype: BashOperator
+      task_id: Date
+      depends_on_task:
+      command: date
+      retries: 0
+    task_ExtractCsv: 
+      tasktype: DummyOperator
+      task_id: ExtractCsv
+      depends_on_task:
+      retries: 0
+    task_ExtractFileS3:
+      tasktype: BashOperator
+      task_id: ExtractFileS3
+      depends_on_task:
+        - ExtractCsv
+      command: curl -k -X GET "https://s3-us-west-1.amazonaws.com/starschema.covid/CT_US_COVID_TESTS.csv" > /usr/local/airflow/arquivo_covid.csv
+      retries: 0
+    task_ExtractFileS3:
+      tasktype: BashOperator
+      task_id: ExtractFileS3
+      depends_on_task:
+        - ExtractCsv
+      command: curl -k -X GET "https://s3-us-west-1.amazonaws.com/starschema.covid/CT_US_COVID_TESTS.csv" > /usr/local/airflow/arquivo_covid_testes.csv
+      retries: 0
