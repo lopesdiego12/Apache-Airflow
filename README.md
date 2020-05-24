@@ -80,7 +80,13 @@ Message queue do airflow
 
 
 ## Docker 
-fornece uma camada de abstração e automação para virtualização de sistema operacional
+Fornece uma camada de abstração e automação para virtualização de sistema operacional
+
+## Docker compose
+Roda múltiplo container e sobre múltiplo serviços/aplicações através de comandos no arquivo YAML(YML)
+
+
+## Hands-on
 
 Para baixar a imagem que iremos utilizar favor executar o comando abaixo
 
