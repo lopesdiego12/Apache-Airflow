@@ -65,6 +65,7 @@ The Airflow scheduler monitora todas as tasks e todas as Dags para assegurar que
 Airflow workers espera, processa e enfileira
 
 >Flower
+
 Flower é uma ferramenta baseada em web para monitorar e administrar os operadores Celery
 
 
